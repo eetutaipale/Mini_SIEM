@@ -1,0 +1,27 @@
+    .sidebar { 
+        float: left; 
+        width: 150px;
+     }
+    .content { 
+        margin-left: 200px;
+    }
+
+    
+    .sidebar a {
+      display: block;
+    }
+
+    .page {
+      display: none;
+    }
+
+    .page:target {
+      display: block;
+    }
+
+    #home {
+      display: block;
+    }
+    .page:target ~ #home {
+      display: none;
+    }
